@@ -3,7 +3,6 @@ module github.com/Pavel910862/microservices_course/week_1/grpc
 go 1.23
 
 require (
-	github.com/Pavel910862/microservices_course v0.0.0-20231223220335-e3dc2de2c490
 	github.com/brianvoe/gofakeit v3.18.0+incompatible
 	github.com/fatih/color v1.16.0
 	google.golang.org/grpc v1.60.1
