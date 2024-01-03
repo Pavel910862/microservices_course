@@ -4,7 +4,6 @@ import (
 	"context"
 	"log"
 
-	noteService "giththub.com/Pavel910862/microservices_course/week_3/internal/service/note"
 	"github.com/Pavel910862/microservices_course/week_3/internal/api/note"
 	"github.com/Pavel910862/microservices_course/week_3/internal/client/db"
 	"github.com/Pavel910862/microservices_course/week_3/internal/client/db/pg"
@@ -12,8 +11,9 @@ import (
 	"github.com/Pavel910862/microservices_course/week_3/internal/closer"
 	"github.com/Pavel910862/microservices_course/week_3/internal/config"
 	"github.com/Pavel910862/microservices_course/week_3/internal/repository"
+	noteRepository "github.com/Pavel910862/microservices_course/week_3/internal/repository/note"
 	"github.com/Pavel910862/microservices_course/week_3/internal/service"
-	noteRepository "giub.com/Pavel910862/microservices_course/week_3/internal/repository/note"
+	noteService "github.com/Pavel910862/microservices_course/week_3/internal/service/note"
 )
 
 type serviceProvider struct {
